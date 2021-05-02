@@ -5,7 +5,7 @@
      <default revision="main" remote="android" sync-j="4" />
 
 	 <!--name 子仓库的 git 仓库名称,path repo sync 同步时，相对于根目录的子仓库文件夹路径 分组 revision: 使用的分支名 remote：关联的remote名-->
-	 
+	 <project name="app_architecture" path="app/app_architecture" groups="null" revision="main" remote="android"/>
 	 <project name="lib_common" path="library/lib_common" groups="null" revision="main" remote="android"/>
 	 <project name="fw_framework" path="framework/fw_framework" groups="null" revision="main" remote="android"/>
 	 <project name="fw_ndk" path="framework/fw_ndk" groups="null" revision="main" remote="android"/>
